@@ -270,9 +270,7 @@ This report presented a threat-driven data classification and handling guide for
 
 ---
 
----
-
-## 12. References
+## 11. References
 
 References follow IEEE style. Items marked † were consulted through secondary summaries or not read in full and should be verified against the primary text.
 
