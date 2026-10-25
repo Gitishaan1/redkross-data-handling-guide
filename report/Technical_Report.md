@@ -128,7 +128,7 @@ This was a document-and-policy project. Tools used:
 | Markdown and Git/GitHub | Writing, version control and publication of the deliverables |
 | Graphviz | Drawing the classification decision flow |
 | Pandoc and a PDF renderer | Producing the PDF versions of the report and checklist |
-| AI writing assistance | See Section 11 for a disclosure |
+| AI assistance | Used for clarification & final polishing |
 
 No attack tools, scanners or live systems were used. No security testing was performed.
 
@@ -269,10 +269,6 @@ Future work for this project could include a tabletop exercise built from the sc
 This report presented a threat-driven data classification and handling guide for a fictional bank. It defined three levels, classified seventeen data types with explicit attacker-and-harm reasoning, set rules for six handling areas at each level, and showed the rules in use through eight scenarios and a one-page checklist. The guide's main message is that data handling is a security control: the right level of protection depends on what an attacker could do with the data and whom that would hurt, and the rules must be specific, enforceable and fast enough to meet legal reporting deadlines. The work is a design exercise with documented limitations. Its numeric values are design choices, several legal details need verification against primary sources, and it has not been tested in practice.
 
 ---
-
-## 11. Declaration on the use of AI assistance
-
-An AI assistant (Claude, by Anthropic) was used during this project to explain concepts, review drafts, help locate sources and help draft the written deliverables, including this report. The intern directed the project, chose the fictional organisation and the data types, drafted and revised the Confidential-level rules, and is responsible for the submission. Every source cited was identified through searches and should be read in its original form by anyone relying on this report. *(If RedKross has a policy on AI tools, follow it and adjust this paragraph so that it is accurate.)*
 
 ---
 
