@@ -4,7 +4,7 @@ subtitle: "Technical Report: RedKross Research Foundation Internship, Task 1 (Da
 ---
 
 **Intern:** ISHAAN BANSAL | **Intern ID:** 2436 | **Organisation:** RedKross Research Foundation | **Batch:** October 2026\
-**Repository:** https://github.com/Gitishaan1/redkross-data-handling-guide *(update if the repository name differs)*\
+**Repository:** https://github.com/Gitishaan1/redkross-data-handling-guide\
 **Date:** October 2026
 
 ---
