@@ -1,0 +1,21 @@
+digraph G {
+  rankdir=TB; nodesep=0.35; ranksep=0.45;
+  node [shape=box, style="rounded,filled", fontname="DejaVu Sans", fontsize=11, color="#444444", fillcolor="#F4F6F8"];
+  edge [fontname="DejaVu Sans", fontsize=10, color="#555555"];
+  start [label="New piece of information\n(identify the data owner)", fillcolor="#DCE6F2"];
+  q1 [label="Q1. Has the owner formally approved\nit for release to the public?", shape=diamond, style=filled, fillcolor="#FFF7DC"];
+  q2 [label="Q2. Could disclosure seriously harm customers,\nstaff, cash or physical safety, security\nof systems, or breach the law (e.g. DPDP)?", shape=diamond, style=filled, fillcolor="#FFF7DC"];
+  q3 [label="Q3. Does it contain secrets, customer data or\ncredentials (even inside logs or backups)?", shape=diamond, style=filled, fillcolor="#FFF7DC"];
+  pub [label="PUBLIC\nProtect integrity and availability", fillcolor="#D8F0D8"];
+  internal [label="INTERNAL\nStaff and NDA partners only", fillcolor="#FDE9C9"];
+  conf [label="CONFIDENTIAL\nNamed roles, need-to-know,\nstrongest controls", fillcolor="#F6D0D0"];
+  draft [label="Unapproved drafts keep the level of\ntheir content until release is approved", shape=note, fillcolor="#FFFFFF"];
+  start -> q1;
+  q1 -> pub [label="Yes"];
+  q1 -> q2 [label="No"];
+  q2 -> conf [label="Yes"];
+  q2 -> q3 [label="No"];
+  q3 -> conf [label="Yes"];
+  q3 -> internal [label="No"];
+  pub -> draft [style=dashed, arrowhead=none];
+}
