@@ -3,7 +3,7 @@
 **RedKross Research Foundation: Cybersecurity Internship, Task 1 (Data Handling)**
 **Intern:** ISHAAN BANSAL | **Intern ID:** 2436 | **Batch:** October 2026
 
-> **Explanatory video:** [ADD YOUR YOUTUBE (UNLISTED) OR GOOGLE DRIVE LINK HERE]
+> **Explanatory video:** https://drive.google.com/file/d/1H-43GJ6PFUYUOgzHSFLX12Gzh9qIOz4_/view?usp=drive_link
 
 ---
 
